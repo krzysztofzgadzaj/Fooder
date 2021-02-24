@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fooder.Constants\Fooder.Constants.csproj" />
+      <ProjectReference Include="..\Fooder.Persistence\Fooder.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>

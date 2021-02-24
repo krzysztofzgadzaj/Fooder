@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.9" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+      <PackageReference Include="RestSharp" Version="106.11.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fooder.Constants\Fooder.Constants.csproj" />
+      <ProjectReference Include="..\Fooder.Dto\Fooder.Dto.csproj" />
+    </ItemGroup>
+
+</Project>

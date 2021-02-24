@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Migrations\20210126143506_CommentMarkMigration.cs" />
+      <Compile Remove="Migrations\20210126143506_CommentMarkMigration.Designer.cs" />
+      <Compile Remove="Migrations\20210126155956_CommentMarkMigration.cs" />
+      <Compile Remove="Migrations\20210126155956_CommentMarkMigration.Designer.cs" />
+      <Compile Remove="Migrations\20210127111229_CommentMarkMigration.cs" />
+      <Compile Remove="Migrations\20210127111229_CommentMarkMigration.Designer.cs" />
+      <Compile Remove="Migrations\20210127113326_CommentMarkMigration.cs" />
+      <Compile Remove="Migrations\20210127113326_CommentMarkMigration.Designer.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Fooder.Constants\Fooder.Constants.csproj" />
+    </ItemGroup>
+
+</Project>

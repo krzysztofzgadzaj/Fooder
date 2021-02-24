@@ -1,0 +1,17 @@
+$pale-pink: rgb(255, 204, 204);
+$sensual-pink: rgb(255, 128, 128);
+$light-pink: rgb(255, 85, 85);
+$dark-pink: rgb(150, 14, 14);
+$white: rgb(255, 255, 255);
+$cream: rgb(255, 254, 230);
+$light-gray: rgb(179, 179, 179);
+
+:export {
+  palePink: $pale-pink;
+  sensualPink: $sensual-pink;
+  lightPink: $light-pink;
+  darkPink: $dark-pink;
+  white: $white;
+  cream: $cream;
+  lightGray: $light-gray;
+}
